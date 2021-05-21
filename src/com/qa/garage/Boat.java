@@ -8,8 +8,8 @@ public class Boat extends Vehicle{
 		super();
 	}
 	
-	public Boat(String brand, int numDoors, String color) {
-		super(brand, numDoors, color);
+	public Boat(String brand, int numTires, String color) {
+		super(brand, numTires, color);
 	}
 
 }
