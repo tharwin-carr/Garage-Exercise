@@ -1,6 +1,6 @@
 package com.qa.garage;
 
-public abstract class Vehicle extends Garage {
+public class Vehicle extends Garage {
 
 	// Attributes
 	
