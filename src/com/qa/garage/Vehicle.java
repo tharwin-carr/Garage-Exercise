@@ -37,5 +37,19 @@ public class Vehicle extends Garage {
 	public String getColor() {
 		return color;
 	}
+	
+	// Setters
+	
+	public void setBrand(String newBrand) {
+		this.brand =  newBrand;
+	}
+	
+	public void setNumTires(int newNumTires) {
+		this.numTires = newNumTires;		
+	}
+	
+	public void setColor(String newColor) {
+		this.color = newColor;
+	}
 
 }
