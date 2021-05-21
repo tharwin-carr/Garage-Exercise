@@ -10,6 +10,8 @@ public class Vehicle extends Garage {
 
 	// Constructors
 	
+	
+	// default vehicle if no attributes are given
 	public Vehicle() {
 		super();
 		this.brand = "???";

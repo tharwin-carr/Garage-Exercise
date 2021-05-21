@@ -1,7 +1,6 @@
 package com.qa.garage;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 public class Garage {
@@ -42,5 +41,7 @@ public class Garage {
 	public void emptyGarage() {
 		lot.removeAll(lot);
 	}
+	
+	//trying to remove vehicles by type using build in iterator....
 
 }
